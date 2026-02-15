@@ -14,9 +14,6 @@ class Student extends Model
         'email',
     ];
 
-    /**
-     * The courses that the student is enrolled in.
-     */
     public function courses(): BelongsToMany
     {
         return $this->belongsToMany(Course::class, 'enrollments')
