@@ -88,6 +88,7 @@
 </form>
 @endsection
 
+
 @section('footer-links')
 <p class="text-sm text-gray-600">
     Don't have an account?
@@ -96,6 +97,3 @@
     </a>
 </p>
 @endsection
-
-
-
